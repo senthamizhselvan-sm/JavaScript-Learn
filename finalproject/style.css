@@ -1,0 +1,81 @@
+/* Reset + base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation bar */
+nav {
+  background: #d01616;
+  color: #fff;
+  padding: 1rem;
+}
+
+.nav-center {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main area */
+main {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-Color: green;
+}
+
+.container {
+  text-align: center;
+}
+
+/* The text block */
+.container h2 {
+  display: inline-block;
+  background: #000;       /* black background for the text block */
+  color: #fff;            /* white text */
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* The color part of the text */
+.container .color {
+  color: #49a6e9;          /* blue like in your screenshot */
+  font-weight: normal;
+}
+
+/* The button */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #000;        /* black background */
+  color: #fff;             /* white text */
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background: #333;
+}
